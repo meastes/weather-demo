@@ -23,7 +23,7 @@ describe('Weather', () => {
     });
   }
 
-  beforeEach(async () => {
+  beforeEach(() => {
     page.setRequestInterception(true);
   });
 
